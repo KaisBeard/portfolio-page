@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Collapsible from 'react-collapsible';
+import About from "./src/About"
+import Skills from "./src/Skills"
+import Projects from "./src/Projects"
+import Footer from "./src/Footer"
+import Overview from "./src/Overview"
+import Header from "./src/Header"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <Header />
+        {/*<Overview />
+        <hr/>*/}
+        <main>
+          <About />
+          <hr/>
+          <Skills />
+          <hr/>
+          <Projects />
+        </main>
+        <Footer />
+      </div>
   );
+
 }
 
 export default App;
