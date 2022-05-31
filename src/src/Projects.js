@@ -11,7 +11,7 @@ function Projects() {
         <div>
           <div className="projektDiv">
             <h3>Dynamic multi channel chat app</h3>
-            <p>A proogressive web app that enables to text in a different way.</p>
+            <p>A progressive web app that enables to text in a different way.</p>
             <Collapsible trigger="Details" >
               <div className="projectDetails">
                 <div>
