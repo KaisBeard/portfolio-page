@@ -173,6 +173,8 @@ main, header, footer {
   padding-right: 20%;
 }
 
+/*Media queries following*/
+
 @media (max-width: 1082px) {
 	main, header, footer { 
     padding-left: 5em;

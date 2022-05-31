@@ -1,6 +1,4 @@
 
-import Collapsible from 'react-collapsible';
-
 function Footer() {
   return (
     <div>
