@@ -7,7 +7,7 @@ function Skills() {
         <h2>Skills</h2>
         <div className="rowFlexCon">
           <div>
-            <h3>Coding Skills</h3>
+            <h3>Coding skills</h3>
             <ul>
               <li>HTML5, CSS3, responsive web design</li>
               <li>Frontend programming with JavaScript/React</li>
@@ -19,7 +19,7 @@ function Skills() {
             </ul>
           </div>
           <div>
-            <h3>Other Skills</h3>
+            <h3>Other skills</h3>
             <ul>
               <li>SEO (Sistrix, Keyword-Planner, MyBusiness, ...)</li>
               <li>SEA (Google Ads)</li>
