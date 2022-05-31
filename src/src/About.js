@@ -4,7 +4,7 @@ function About() {
     <div>
       <div id="about" className="spacertop"></div>
       <section >
-        <h2>About Me</h2>
+        <h2>About me</h2>
         <div className="rowFlexCon">
           <div>
             <h3>I love problems</h3>
